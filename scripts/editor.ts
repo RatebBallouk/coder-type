@@ -193,7 +193,7 @@ export const startEditor = (code: string) => {
 	});
 }
 
-export const clearEditor = () => {
+## export const clearEditor = () => {
 	editorElement.innerHTML = "";
 	statsElement.innerHTML = "";
 }
